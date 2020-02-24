@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SINESEATS</title>
+    <link rel="stylesheet" href="JS/seatchart.js-develop/src/css/seatchart.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<style>
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+    }
+
+    #map-container {
+        display: flex;
+        align-items: center;
+    }
+
+    #legend-container {
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+    <div class="content">
+        <div id="map-container"></div>
+        <div class="right">
+            <div id="cart-container"></div>
+            <div id="legend-container"></div>
+            <button class="reserve btn btn-primary">RESERVE</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="JS/seatchart.js-develop/src/js/seatchart.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
